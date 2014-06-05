@@ -1,0 +1,248 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Waseem}{Ahmad}{ \urlstyle{same}\url{www.waseemahmad.com} \\
+\href{mailto:waseem@sublimity.me}{waseem@sublimity.me} | 1.954.673.9053
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{Rice University}
+\descript{Bachelors in Computer Science}
+\location{2010 - 2014 |  Houston, TX}
+GPA: 3.87 | Cum Laude
+\sectionsep
+
+\subsection{UCL}
+\descript{Study Abroad / Comp. Sci.}
+\location{Spring 2013 | London, UK}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Github:// \href{https://github.com/trnscndntlimbo}{\bf trnscndntlimbo} \\
+LinkedIn: \href{https://www.linkedin.com/pub/waseem-ahmad/45/196/a92}{\bf bit.ly/waseemahmad} \\
+Medium://  \href{https://www.medium.com/@trnscndntlimbo}{\bf @trnscndntlimbo} \\
+Facebook:// \href{https://www.facebook.com/waseem90}{\bf waseem90} \\
+Twitter://  \href{https://twitter.com/trnscndntlimbo}{\bf @trnscndntlimbo} \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Technical Skills}
+\subsection{Languages}
+\location{Proficient:}
+Python \textbullet{} Scala \textbullet{} Java \textbullet{} C \\
+Objective-C \textbullet{} JavaScript \textbullet{} PHP \\
+\location{Comfortable:}
+HTML \textbullet{} CSS \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+COMP 382: Algorithms \\
+COMP 421: Operating Systems \\
+COMP 412: Compiler Construction \\
+COMP 410: Software Eng. Methodology \\
+Functional Programming in Scala $\dagger$ \\
+COMP 440: Artificial Intelligence \\
+COMP 430: Databases \\
+COMP 450: Algorithmic Robotics \\
+COMP 310: Advanced OO Prog. \\
+COMP 322: Parallel Programming \\
+COMP 221: Computer Systems \\
+BUSI 296: Business Communications \\
+COMP 446: Mobile Applications* \\
+COMP 215: Program Design \\
+COMP 182: Algorithmic Thinking \\
+COMP 140: Computational Thinking*
+
+{\footnotesize \textit{\textbf{ * Teaching Assistant}}} \\
+{\footnotesize \textit{\textbf{ $\dagger$ Online: Coursera}}} \\
+
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66 \textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{Facebook}
+\descript{| Software Engineer Intern}
+\location{Payments Platform | Jun 2013 – Aug 2013 | Menlo Park, CA}
+\begin{small}
+Created an internal tool: Payment Method Order and Routing \\
+This tool allows Payment Ops to achieve higher payment completions, utilize payment providers more effectively, and generate more revenue.
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item {On a country-by-country basis,}
+\begin{tightemize}
+\item {allows ordering of payment methods to show more popular payment methods first; and,}
+\item {allows split routing of traffic to payment providers for individual methods.}
+\end{tightemize}
+\item {Using PHP / Hack, JS, HTML, and CSS, designed and implemented the UI for ordering and routing data entry, validation, and persistence.}
+\item {Implemented the business and routing logic for mobile alternative payment methods (non-mobile already implemented).}
+\end{tightemize}
+\end{small}
+\sectionsep
+
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\runsubsection{Google}
+\descript{| Software Engineer Intern in Test }
+\location{QPX\textsuperscript{TM} - Travel Search | May 2013 – Aug 2013 | Boston, MA}
+\begin{small}
+\begin{tightemize}
+\item Designed and deployed QPX dashboard, which integrates and consolidates data from test systems into a user friendly and interactive report.
+\item Used Python (Google App Engine), JavaScript (Closure), CSS, and HTML for development. 
+\item Optimized and parallelized QPX testing server startup scripts, speedup greater than 2x achieved.
+\end{tightemize}
+\end{small}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{\href{http://elections.riceapps.org}{Rice Elections}}
+\descript{| Jan 2013 – May 2014}
+\begin{small}
+Voluntarily designed and implemented a web app for secure online elections using Google App Engine for Python.
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Supports the two most popular voting systems: Instant Runoff Voting, Cumulative Choice Voting.
+\item Automatically computes election results at the end of elections and makes them publicly available. Emails election administrators a detailed report with ballot information for manual verification. 
+\item The ballots cast are not tied to the voters for privacy and anonymity.
+\end{tightemize}
+\end{small}
+\sectionsep
+
+\descript{More projects at \href{http://www.waseemahmad.com/projects}{waseemahmad.com/projects} }
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards} 
+\begin{small}
+\begin{tabular}{rll}
+2014 & \href{http://news.rice.edu/2014/05/17/degree-recipients-earn-scores-of-honors-awards/}{Jason Chahin Innovation and Excellence}         & \href{http://news.rice.edu/2014/05/17/degree-recipients-earn-scores-of-honors-awards/}{Given to 1 senior in CS Dept.}  \\
+2014 & \href{http://brown.rice.edu/people/academic-fellows}{Brown College Society of Academic Fellows}                                        & \href{http://brown.rice.edu/people/academic-fellows}{Academic Excellence}  \\
+2014 & \href{http://challengepost.com/software/telepromptu}{PennApps Hackathon}                                                               & \href{http://challengepost.com/software/telepromptu}{Google Prize | Telepromptu}  \\
+2013 & \href{http://www.waseemahmad.com/hacker-life-2/}{University Hacker Olympics Hackathon}                                                  & \href{http://www.waseemahmad.com/hacker-life-2/}{1st Place | Clarity}  \\
+2013 & \href{http://challengepost.com/software/townfloor}{PennApps Hackathon}                                                                 & \href{http://challengepost.com/software/townfloor}{3rd Place in Best Use of Firebase | TownFloor} 
+\end{tabular}
+\end{small}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COMMUNITY
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Community}
+\begin{small}
+\begin{tabular}{rll}
+2013-2014 	& \href{http://csclub.rice.edu/officers}{President}           & \href{http://csclub.rice.edu/officers}{Rice CS Club}  \\
+2012-2013   & \href{http://csclub.rice.edu/officers}{Vice President}      & \href{http://csclub.rice.edu/officers}{Rice CS Club}  \\
+2013-2014   & \href{http://riceapps.org}{Founder}                         & \href{http://riceapps.org}{Rice Apps}     \\
+2012-2013   & \href{https://www.google.com/edu/programs/student-ambassador-program/}{Student Ambassador for Rice University}   & \href{https://www.google.com/edu/programs/student-ambassador-program/}{Google} \\
+2012        & \href{http://hack.rice.edu/about}{Founder}                  & \href{http://hack.rice.edu/about}{HackRice}
+\end{tabular}
+\end{small}
+\sectionsep
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
