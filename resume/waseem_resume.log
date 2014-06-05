@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2013.5.30)  4 JUN 2014 22:29
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2013.5.30)  4 JUN 2014 22:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -784,8 +784,7 @@ LaTeX Info: Redefining \LaTeXe on input line 219.
 .................................................
 
 TextBlockOrigin set to 0mm x 5mm
-)
-No file waseem_resume.aux.
+) (./waseem_resume.aux)
 \openout1 = `waseem_resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
@@ -808,6 +807,7 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 50.
 LaTeX Font Info:    ... okay on input line 50.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 50.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 50.
+
 (/usr/local/texlive/2013/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
@@ -860,12 +860,11 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 50.
 LaTeX Info: Redefining \pageref on input line 50.
 LaTeX Info: Redefining \nameref on input line 50.
+
+(./waseem_resume.out) (./waseem_resume.out)
 \@outlinefile=\write3
 \openout3 = `waseem_resume.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 ABD: EveryShipout initializing macros
 isodate: babel.sty has been loaded
@@ -1400,6 +1399,45 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 .................................................
 . fontspec info: "no-scripts"
 . 
+. Font Helvetica does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Helvetica(0)' created for font 'Helvetica' with options
+. [Mapping=tex-text,].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Heiti SC Medium does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'HeitiSCMedium(0)' created for font 'Heiti SC Medium' with
+. options [Mapping=tex-text,].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Heiti TC Medium does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'HeitiTCMedium(0)' created for font 'Heiti TC Medium' with
+. options [Mapping=tex-text,].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
 . Font Helvetica Light does not contain any OpenType `Script' information.
 .................................................
 .................................................
@@ -1463,9 +1501,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 . This font family consists of the following shapes:
 .................................................
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 221.
+(Font)              <9> on input line 220.
 
-Overfull \hbox (56.16739pt too wide) in paragraph at lines 221--230
+Overfull \hbox (5.8124pt too wide) in paragraph at lines 220--229
 [][] 
  []
 
@@ -1482,14 +1520,14 @@ Overfull \hbox (56.16739pt too wide) in paragraph at lines 221--230
 . 
 . This font family consists of the following shapes:
 .................................................
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 248.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 247.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 248.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 247.
  (./waseem_resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 248.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 248.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 247.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 247.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1498,13 +1536,13 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 248.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 247.
  ) 
 Here is how much of TeX's memory you used:
- 22925 strings out of 493938
- 443467 string characters out of 6148857
- 472584 words of memory out of 5000000
- 25923 multiletter control sequences out of 15000+600000
+ 22934 strings out of 493938
+ 443599 string characters out of 6148857
+ 471584 words of memory out of 5000000
+ 25926 multiletter control sequences out of 15000+600000
  8179 words of font info for 93 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  53i,8n,82p,566b,500s stack positions out of 5000i,500n,10000p,200000b,80000s

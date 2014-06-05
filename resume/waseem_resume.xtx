@@ -62,7 +62,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \namesection{Waseem}{Ahmad}{ \urlstyle{same}\url{www.waseemahmad.com} \\
-\href{mailto:waseem@sublimity.me}{waseem@sublimity.me} | 1.954.673.9053
+\href{mailto:waseem@sublimity.me}{waseem@sublimity.me} | +1.954.673.9053
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -160,6 +160,11 @@ COMP 140: Computational Thinking*
 \section{Experience}
 
 \runsubsection{Facebook}
+\descript{| Software Engineer }
+\location{ Starting Aug 2014 | Menlo Park, CA}
+\sectionsep
+
+\runsubsection{Facebook}
 \descript{| Software Engineer Intern}
 \location{Payments Platform | Jun 2013 – Aug 2013 | Menlo Park, CA}
 \begin{small}
@@ -199,13 +204,7 @@ This tool allows Payment Ops to achieve higher payment completions, utilize paym
 \runsubsection{\href{http://elections.riceapps.org}{Rice Elections}}
 \descript{| Jan 2013 – May 2014}
 \begin{small}
-Voluntarily designed and implemented a web app for secure online elections using Google App Engine for Python.
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}
-\item Supports the two most popular voting systems: Instant Runoff Voting, Cumulative Choice Voting.
-\item Automatically computes election results at the end of elections and makes them publicly available. Emails election administrators a detailed report with ballot information for manual verification. 
-\item The ballots cast are not tied to the voters for privacy and anonymity.
-\end{tightemize}
+Voluntarily designed and implemented a web app for secure online elections using Google App Engine for Python. Supports the two most popular electoral systems and authenticates users against their university provided NetID account. \href{https://github.com/rice-apps/rice-elections}{Source code: https://github.com/rice-apps/rice-elections}
 \end{small}
 \sectionsep
 
@@ -223,7 +222,7 @@ Voluntarily designed and implemented a web app for secure online elections using
 2014 & \href{http://brown.rice.edu/people/academic-fellows}{Brown College Society of Academic Fellows}                                        & \href{http://brown.rice.edu/people/academic-fellows}{Academic Excellence}  \\
 2014 & \href{http://challengepost.com/software/telepromptu}{PennApps Hackathon}                                                               & \href{http://challengepost.com/software/telepromptu}{Google Prize | Telepromptu}  \\
 2013 & \href{http://www.waseemahmad.com/hacker-life-2/}{University Hacker Olympics Hackathon}                                                  & \href{http://www.waseemahmad.com/hacker-life-2/}{1st Place | Clarity}  \\
-2013 & \href{http://challengepost.com/software/townfloor}{PennApps Hackathon}                                                                 & \href{http://challengepost.com/software/townfloor}{3rd Place in Best Use of Firebase | TownFloor} 
+2013 & \href{http://challengepost.com/software/townfloor}{PennApps Hackathon}                                                                 & \href{http://challengepost.com/software/townfloor}{Best Use of Firebase | TownFloor} 
 \end{tabular}
 \end{small}
 \sectionsep
