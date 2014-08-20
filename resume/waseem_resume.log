@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2013.5.30)  12 JUN 2014 22:56
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2013.5.30)  19 AUG 2014 22:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1501,9 +1501,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 . This font family consists of the following shapes:
 .................................................
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 220.
+(Font)              <9> on input line 219.
 
-Overfull \hbox (5.8124pt too wide) in paragraph at lines 220--229
+Overfull \hbox (5.8124pt too wide) in paragraph at lines 219--228
 [][] 
  []
 
@@ -1520,14 +1520,14 @@ Overfull \hbox (5.8124pt too wide) in paragraph at lines 220--229
 . 
 . This font family consists of the following shapes:
 .................................................
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 247.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 246.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 247.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 246.
  (./waseem_resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 247.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 247.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 246.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 246.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1536,7 +1536,7 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 247.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 246.
  ) 
 Here is how much of TeX's memory you used:
  22934 strings out of 493938
