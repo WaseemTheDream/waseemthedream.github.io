@@ -4,16 +4,16 @@ flags --cl-global-work 8192 --farm-recheck 200
 globalfan 85
 autoreboot 3
 
-miner g-iv claymore
-wallet g-iv 0x79850bCcD44ef784e53d6F5a4ba4C270ab325FA8
-rigpool1 g-iv us1.ethermine.org:4444
-rigpool2 g-iv us2.ethermine.org:4444
-rigpoolpass1 g-iv x
-rigpoolpass2 g-iv x
+miner 0231fb claymore
+wallet 0231fb 0x79850bCcD44ef784e53d6F5a4ba4C270ab325FA8
+rigpool1 0231fb us1.ethermine.org:4444
+rigpool2 0231fb us2.ethermine.org:4444
+rigpoolpass1 0231fb x
+rigpoolpass2 0231fb x
 
-miner gt2-rs claymore
-wallet g2-rs 0xc97079e3be53C997Ecf3996F7F249f307d55F8a4
-rigpool1 gt2-rs us1.ethermine.org:4444
-rigpool2 gt2-rs us2.ethermine.org:4444
-rigpoolpass1 gt2-rs x
-rigpoolpass2 gt2-rs x
+miner 5f6819 claymore
+wallet 5f6819 0xc97079e3be53C997Ecf3996F7F249f307d55F8a4
+rigpool1 5f6819 us1.ethermine.org:4444
+rigpool2 5f6819 us2.ethermine.org:4444
+rigpoolpass1 5f6819 x
+rigpoolpass2 5f6819 x
