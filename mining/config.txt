@@ -19,3 +19,11 @@ rigpool1 5f6819 us1.ethermine.org:4444
 rigpool2 5f6819 us2.ethermine.org:4444
 rigpoolpass1 5f6819 x
 rigpoolpass2 5f6819 x
+
+loc 0090f3 Roadster
+miner 0090f3 claymore
+wallet 0090f3 0x79850bCcD44ef784e53d6F5a4ba4C270ab325FA8
+rigpool1 0090f3 us1.ethermine.org:4444
+rigpool2 0090f3 us2.ethermine.org:4444
+rigpoolpass1 0090f3 x
+rigpoolpass2 0090f3 x
