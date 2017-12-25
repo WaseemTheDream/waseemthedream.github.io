@@ -27,3 +27,11 @@ rigpool1 0090f3 us1.ethermine.org:4444
 rigpool2 0090f3 us2.ethermine.org:4444
 rigpoolpass1 0090f3 x
 rigpoolpass2 0090f3 x
+
+loc 00cd0e 720s
+miner 00cd0e claymore
+wallet 00cd0e 0xc97079e3be53C997Ecf3996F7F249f307d55F8a4
+rigpool1 00cd0e us1.ethermine.org:4444
+rigpool2 00cd0e us2.ethermine.org:4444
+rigpoolpass1 00cd0e x
+rigpoolpass2 00cd0e x
