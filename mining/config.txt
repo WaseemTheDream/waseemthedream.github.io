@@ -4,6 +4,7 @@ flags --cl-global-work 8192 --farm-recheck 200
 globalfan 85
 autoreboot 3
 
+loc 0231fb P100D
 miner 0231fb claymore
 wallet 0231fb 0x79850bCcD44ef784e53d6F5a4ba4C270ab325FA8
 rigpool1 0231fb us1.ethermine.org:4444
@@ -11,6 +12,7 @@ rigpool2 0231fb us2.ethermine.org:4444
 rigpoolpass1 0231fb x
 rigpoolpass2 0231fb x
 
+loc 5f6819 GT2-RS
 miner 5f6819 claymore
 wallet 5f6819 0xc97079e3be53C997Ecf3996F7F249f307d55F8a4
 rigpool1 5f6819 us1.ethermine.org:4444
