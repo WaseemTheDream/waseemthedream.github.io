@@ -36,9 +36,9 @@ rigpool1 0090f3 us1.ethermine.org:4444
 rigpool2 0090f3 us2.ethermine.org:4444
 rigpoolpass1 0090f3 x
 rigpoolpass2 0090f3 x
-globalmem 0090f3 2100
-globalpowertune 0090f3 7
-maxgputemp 0090f3 90
+mem 0090f3 2100 2100 2100 2100 2100 2100
+powertune 0090f3 7 7 7 7 7 7
+maxgputemp 0090f3 90 90 90 90 90 90
 
 loc 00cd0e 720s
 miner 00cd0e claymore
