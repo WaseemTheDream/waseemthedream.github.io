@@ -1,10 +1,10 @@
 globalminer claymore
 stratumproxy enabled
 flags --cl-global-work 8192 --farm-recheck 200
-globalfan 85
+globalfan 65
 autoreboot 3
 
-loc 24add7 Mission-E
+loc 24add7 Chiron
 miner 24add7 claymore
 wallet 24add7 0x79850bCcD44ef784e53d6F5a4ba4C270ab325FA8
 rigpool1 24add7 us1.ethermine.org:4444
