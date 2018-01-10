@@ -4,6 +4,14 @@ flags --cl-global-work 8192 --farm-recheck 200
 globalfan 65
 autoreboot 3
 
+loc 0092ea P1
+miner 0092ea claymore
+wallet 0092ea 0x79850bCcD44ef784e53d6F5a4ba4C270ab325FA8
+rigpool1 0092ea us1.ethermine.org:4444
+rigpool2 0092ea us2.ethermine.org:4444
+rigpoolpass1 0092ea x
+rigpoolpass2 0092ea x
+
 loc 24add7 Chiron
 miner 24add7 claymore
 wallet 24add7 0x79850bCcD44ef784e53d6F5a4ba4C270ab325FA8
