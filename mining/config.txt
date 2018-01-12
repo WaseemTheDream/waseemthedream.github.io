@@ -2,7 +2,8 @@ globalminer claymore
 stratumproxy enabled
 flags --cl-global-work 8192 --farm-recheck 200
 globalfan 65
-autoreboot 3
+autoreboot false
+maxgputemp 85
 
 loc 0092ea P1
 miner 0092ea claymore
