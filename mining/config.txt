@@ -13,10 +13,6 @@ rigpool1 0092ea us1.ethermine.org:4444
 rigpool2 0092ea us2.ethermine.org:4444
 rigpoolpass1 0092ea x
 rigpoolpass2 0092ea x
-dualminer 0092ea enabled
-dualminer-coin 0092ea sia
-dualminer-pool 0092ea us-east.siamining.com:7777
-dualminer-wallet 0092ea 7978cffd455e3d1e72768c45b2c569a665b27ef33a16d2eb0efe4aa4c02f3d470a127b2f0711
 
 loc 24add7 Chiron
 miner 24add7 claymore
