@@ -1,4 +1,5 @@
 globalminer claymore
+claymore=flags -dcri 15
 stratumproxy enabled
 flags --cl-global-work 8192 --farm-recheck 200
 globalfan 65
