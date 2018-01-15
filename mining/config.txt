@@ -20,6 +20,10 @@ rigpool1 24add7 us1.ethermine.org:4444
 rigpool2 24add7 us2.ethermine.org:4444
 rigpoolpass1 24add7 x
 rigpoolpass2 24add7 x
+dualminer 24add7 enabled
+dualminer-coin sia
+dualminer-pool us-east.siamining.com:7777
+dualminer-wallet 7978cffd455e3d1e72768c45b2c569a665b27ef33a16d2eb0efe4aa4c02f3d470a127b2f0711
 
 loc 0231fb P100D
 miner 0231fb claymore
