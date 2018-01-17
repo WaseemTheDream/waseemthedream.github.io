@@ -37,6 +37,10 @@ rigpool1 0231fb us1.ethermine.org:4444
 rigpool2 0231fb us2.ethermine.org:4444
 rigpoolpass1 0231fb x
 rigpoolpass2 0231fb x
+dualminer 0231fb enabled
+dualminer-coin 0231fb sia
+dualminer-pool 0231fb us-east.siamining.com:7777
+dualminer-wallet 0231fb 2e5a05426a38968784d480a4dd04179a7cf8ff2efa19c0da37980d4cc11904efafe106137ff8
 
 loc 5f6819 GT2-RS
 miner 5f6819 claymore
@@ -45,6 +49,10 @@ rigpool1 5f6819 us1.ethermine.org:4444
 rigpool2 5f6819 us2.ethermine.org:4444
 rigpoolpass1 5f6819 x
 rigpoolpass2 5f6819 x
+dualminer 5f6819 enabled
+dualminer-coin 5f6819 sia
+dualminer-pool 5f6819 us-east.siamining.com:7777
+dualminer-wallet 5f6819 2e5a05426a38968784d480a4dd04179a7cf8ff2efa19c0da37980d4cc11904efafe106137ff8
 
 loc 0090f3 Roadster
 miner 0090f3 claymore
@@ -53,6 +61,10 @@ rigpool1 0090f3 us1.ethermine.org:4444
 rigpool2 0090f3 us2.ethermine.org:4444
 rigpoolpass1 0090f3 x
 rigpoolpass2 0090f3 x
+dualminer 0090f3 enabled
+dualminer-coin 0090f3 sia
+dualminer-pool 0090f3 us-east.siamining.com:7777
+dualminer-wallet 0090f3 2e5a05426a38968784d480a4dd04179a7cf8ff2efa19c0da37980d4cc11904efafe106137ff8
 
 loc 00cd0e 720s
 miner 00cd0e claymore
@@ -61,3 +73,7 @@ rigpool1 00cd0e us1.ethermine.org:4444
 rigpool2 00cd0e us2.ethermine.org:4444
 rigpoolpass1 00cd0e x
 rigpoolpass2 00cd0e x
+dualminer 00cd0e enabled
+dualminer-coin 00cd0e sia
+dualminer-pool 00cd0e us-east.siamining.com:7777
+dualminer-wallet 00cd0e 2e5a05426a38968784d480a4dd04179a7cf8ff2efa19c0da37980d4cc11904efafe106137ff8
