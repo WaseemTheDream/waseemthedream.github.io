@@ -1,4 +1,4 @@
-globalminer ethminer
+globalminer claymore
 claymore=flags -dcri 15
 stratumproxy enabled
 flags --cl-global-work 8192 --farm-recheck 200
@@ -55,7 +55,7 @@ rigpoolpass1 0090f3 x
 rigpoolpass2 0090f3 x
 
 loc 00cd0e 720s
-miner 00cd0e ethminer
+miner 00cd0e claymore
 wallet 00cd0e 0x4Ff27179e50DC1Af0fe1606da104007c81C9d870
 rigpool1 00cd0e us1.ethermine.org:4444
 rigpool2 00cd0e us2.ethermine.org:4444
