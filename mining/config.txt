@@ -31,7 +31,7 @@ dualminer-pool 24add7 us-east.siamining.com:7777
 dualminer-wallet 24add7 7978cffd455e3d1e72768c45b2c569a665b27ef33a16d2eb0efe4aa4c02f3d470a127b2f0711
 
 loc 0231fb P100D
-miner 0231fb claymore
+miner 0231fb ethminer
 wallet 0231fb 0x4Ff27179e50DC1Af0fe1606da104007c81C9d870
 rigpool1 0231fb us1.ethermine.org:4444
 rigpool2 0231fb us2.ethermine.org:4444
@@ -55,7 +55,7 @@ rigpoolpass1 0090f3 x
 rigpoolpass2 0090f3 x
 
 loc 00cd0e 720s
-miner 00cd0e claymore
+miner 00cd0e ethminer
 wallet 00cd0e 0x4Ff27179e50DC1Af0fe1606da104007c81C9d870
 rigpool1 00cd0e us1.ethermine.org:4444
 rigpool2 00cd0e us2.ethermine.org:4444
