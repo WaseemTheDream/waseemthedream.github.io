@@ -53,7 +53,7 @@ rigpool1 0090f3 us1.ethermine.org:4444
 rigpool2 0090f3 us2.ethermine.org:4444
 rigpoolpass1 0090f3 x
 rigpoolpass2 0090f3 x
-mem 0090f3 2150 2150 2150 2150 2150 2150
+mem 0090f3 2000 2000 2000 2000 2000 2000
 pwr 0090f3 7 7 7 7 7 7
 
 loc 00cd0e 720s
