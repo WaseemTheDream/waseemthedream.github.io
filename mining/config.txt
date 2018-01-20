@@ -1,4 +1,4 @@
-globalminer claymore
+globalminer ethminer
 claymore=flags -dcri 15
 stratumproxy enabled
 flags --cl-global-work 8192 --farm-recheck 200
