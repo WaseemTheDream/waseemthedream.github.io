@@ -28,8 +28,6 @@ rigpool1 0231fb us1.ethermine.org:4444
 rigpool2 0231fb us2.ethermine.org:4444
 rigpoolpass1 0231fb x
 rigpoolpass2 0231fb x
-mem 0231fb 2000 2000 2000 2000 2000 2000
-pwr 0231fb 7 7 7 7 7 7
 
 loc 5f6819 GT2-RS
 miner 5f6819 claymore
@@ -58,5 +56,3 @@ rigpool1 00cd0e us1.ethermine.org:4444
 rigpool2 00cd0e us2.ethermine.org:4444
 rigpoolpass1 00cd0e x
 rigpoolpass2 00cd0e x
-mem 00cd0e 2000 2000 2000 2000 2000 2000
-pwr 00cd0e 7 7 7 7 7 7
