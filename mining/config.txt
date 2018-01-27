@@ -38,8 +38,6 @@ rigpool1 5f6819 us1.ethermine.org:4444
 rigpool2 5f6819 us2.ethermine.org:4444
 rigpoolpass1 5f6819 x
 rigpoolpass2 5f6819 x
-mem 5f6819 2000 2000 2000 2000 2000 2000
-pwr 5f6819 7 7 7 7 7 7
 
 loc 0090f3 Roadster
 miner 0090f3 claymore
@@ -49,7 +47,7 @@ rigpool2 0090f3 us2.ethermine.org:4444
 rigpoolpass1 0090f3 x
 rigpoolpass2 0090f3 x
 mem 0090f3 2025 2025 2025 2025 2025 2025
-pwr 0090f3 7 7 7 7 7 7
+pwr 0090f3 6 6 6 6 6 6
 
 loc 00cd0e 720s
 miner 00cd0e claymore
