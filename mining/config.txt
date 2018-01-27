@@ -1,7 +1,7 @@
 globalminer claymore
 stratumproxy enabled
 flags --cl-global-work 8192 --farm-recheck 200
-globalfan 65
+globalfan 70
 autoreboot false
 maxgputemp 85
 
@@ -12,6 +12,7 @@ rigpool1 0092ea us1.ethermine.org:4444
 rigpool2 0092ea us2.ethermine.org:4444
 rigpoolpass1 0092ea x
 rigpoolpass2 0092ea x
+fan 0092ea 70 70 70 70 70 70
 
 loc 24add7 Chiron
 miner 24add7 claymore
@@ -20,6 +21,7 @@ rigpool1 24add7 us1.ethermine.org:4444
 rigpool2 24add7 us2.ethermine.org:4444
 rigpoolpass1 24add7 x
 rigpoolpass2 24add7 x
+fan 24add7 70 70 70 70 70 70
 
 loc 0231fb P100D
 miner 0231fb claymore
