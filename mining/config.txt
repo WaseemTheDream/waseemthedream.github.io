@@ -1,4 +1,4 @@
-globalminer claymore
+globalminer ethminer
 stratumproxy enabled
 flags --cl-global-work 8192 --farm-recheck 200
 globalfan 85
