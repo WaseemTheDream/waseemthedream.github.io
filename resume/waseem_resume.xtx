@@ -62,7 +62,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \namesection{Waseem}{Ahmad}{ \urlstyle{same}\url{www.waseemahmad.com} \\
-\href{mailto:waseem@sublimity.me}{waseem@sublimity.me} | +1.650.798.9998
+\href{mailto:me@waseemahmad.com}{me@waseemahmad.com} | +1.646.809.0607
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -109,37 +109,31 @@ Twitter://  \href{https://twitter.com/WaseemTheDream3}{\bf @WaseemTheDream3} \\
 \section{Technical Skills}
 \subsection{Languages}
 \location{Proficient:}
-Python \textbullet{} Scala \textbullet{} Java \textbullet{} C \\
+Java (Android) \textbullet{} Python \textbullet{} Scala \textbullet{} C \\
 Objective-C \textbullet{} JavaScript \textbullet{} PHP \\
 \location{Comfortable:}
 HTML \textbullet{} CSS \\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     COURSEWORK
+%     ADD'L EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Coursework}
-COMP 382: Algorithms \\
-COMP 421: Operating Systems \\
-COMP 412: Compiler Construction \\
-COMP 410: Software Eng. Methodology \\
-Functional Programming in Scala $\dagger$ \\
-COMP 440: Artificial Intelligence \\
-COMP 430: Databases \\
-COMP 450: Algorithmic Robotics \\
-COMP 310: Advanced OO Prog. \\
-COMP 322: Parallel Programming \\
-COMP 221: Computer Systems \\
-BUSI 296: Business Communications \\
-COMP 446: Mobile Applications* \\
-COMP 215: Program Design \\
-COMP 182: Algorithmic Thinking \\
-COMP 140: Computational Thinking*
-
-{\footnotesize \textit{\textbf{ * Teaching Assistant}}} \\
-{\footnotesize \textit{\textbf{ $\dagger$ Online: Coursera}}} \\
-
+\section{Add'l Experience}
+\location{At Facebook:}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item \href{https://atscaleconference.com/videos/automated-testing-practices-scale/}{Android @Scale 2018 Conference Speaker}
+\item Conducted 150+ technical interviews.
+\item Intern Director for 28 internships.
+\item Intern Manager for 2 internships.
+\item Went on 15+ University Recruiting trips giving tech talks, judging hackathons, reviewing resumes, and interviewing candidates.
+\item Designed and taught a course on Android Testing to new hires for 3 years.
+\item Assisted with recruiting and hiring engineers on Stories team.
+\end{tightemize}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\location{Side Projects:}
+See \href{http://www.waseemahmad.com/projects}{waseemahmad.com/projects} 
 \sectionsep
 
 
@@ -160,24 +154,44 @@ COMP 140: Computational Thinking*
 \section{Experience}
 
 \runsubsection{Facebook}
-\descript{| Software Engineer }
-\location{ Bootcamp | Aug 2014 - Present | Menlo Park, CA}
+\descript{| Android App Engineer | 2014 - 2019 }
+\location{ Tech Lead | New York, NY | Jan 2018 - Oct 2019 }
+\location{ Senior Software Engineer | New York, NY | Jul 2016 - Dec 2017 }
+\location{ Software Engineer | Menlo Park, CA | Aug 2014 - Jun 2016 }
+\begin{small}
+{\bf Stories Team:}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item {Lead the technical design and development of various product features on Birthday Stories which was launched in May 2019.}
+\item {Developed a library for all of Stories to facilitate automated screenshot testing that catches UI regressions and tests different languages, screen sizes, and Android versions.}
+\end{tightemize}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+{\bf News Feed Team:}
+\vspace{1mm}
+\begin{tightemize}
+\item {Worked on a rewrite of News Feed to Litho - a React-style framework for highly efficient multithreaded UI rendering. Partnered with the Litho team in London and product teams in Menlo Park to guide the new architecture and framework APIs.}
+\item {Lead the 2nd half of the migration across dozens of product teams throughout the company. Tasks included planning and delegating to over 50 engineers, organizing hack weeks and tech talks, reviewing code, and personally contributing.}
+\item {{\bf Results:} Significantly improved News Feed scroll performance, testing coverage, and feature modularity. Unlocked new capabilities on Feed.}
+\end{tightemize}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+{\bf Search Team:}
+\vspace{1mm}
+\begin{tightemize}
+\item {Implemented the system for search result page querying, rendering, and logging.}
+\item {Worked on several new product features including keyword search, trending topics, and video search.}
+\end{tightemize}
+\end{small}
+\vspace{1mm}
 \sectionsep
 
 \runsubsection{Facebook}
 \descript{| Software Engineer Intern}
 \location{Payments Platform | Jun 2013 – Aug 2013 | Menlo Park, CA}
 \begin{small}
-Implemented a system that routes users to payment providers that are more suitable for the user resulting in better price points, higher payment completions, and more revenue. 
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item {Created an internal tool that allows Payment Ops to customize payments on a country-by-country basis:}
-\begin{tightemize}
-\item {allows ordering of payment methods to show more popular payment methods first; and,}
-\item {allows split routing of traffic to payment providers of individual methods for experimentation.}
-\end{tightemize}
+\item {Implemented a system that routes users to payment providers that are more suitable for the user resulting in better price points, higher payment completions, and more revenue.}
 \item {Using PHP / Hack, JS, HTML, and CSS, designed and implemented the UI for ordering and routing data entry, validation, and persistence.}
-\item {Implemented the business and routing logic for mobile alternative payment methods (non-mobile already implemented).}
+\item {{\bf Patent Number:} \href{https://patents.justia.com/patent/10496964}{10496964}}
 \end{tightemize}
 \end{small}
 \sectionsep
@@ -188,26 +202,11 @@ Implemented a system that routes users to payment providers that are more suitab
 \location{QPX\textsuperscript{TM} - Travel Search | May 2013 – Aug 2013 | Boston, MA}
 \begin{small}
 \begin{tightemize}
-\item Designed and deployed QPX dashboard, which integrates and consolidates data from test systems into a user friendly and interactive report.
+\item Built and deployed a dashboard, which integrates and consolidates data from smoke tests for customer search engine builds into a an interactive report.
 \item Used Python (Google App Engine), JavaScript (Closure), CSS, and HTML for development. 
-\item Optimized and parallelized QPX testing server startup scripts, speedup greater than 2x achieved.
+\item Optimized and parallelized QPX testing server startup scripts; 2x speed up achieved.
 \end{tightemize}
 \end{small}
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     PROJECTS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Projects}
-\runsubsection{\href{http://elections.riceapps.org}{Rice Elections}}
-\descript{| Jan 2013 – May 2014}
-\begin{small}
-Voluntarily designed and implemented a web app for secure online elections using Google App Engine for Python. Supports the two most popular electoral systems and authenticates users against their university provided NetID account. \href{https://github.com/rice-apps/rice-elections}{Source code: https://github.com/rice-apps/rice-elections}
-\end{small}
-\sectionsep
-
-\descript{More projects at \href{http://www.waseemahmad.com/projects}{waseemahmad.com/projects} }
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
